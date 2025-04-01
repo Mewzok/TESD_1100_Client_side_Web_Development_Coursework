@@ -1,0 +1,63 @@
+﻿@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 8th Edition
+   Tutorial 5
+   Coding Challenge 1
+
+   Author:   Jonathan Kinney
+   Date:     04/01/2025
+   Filename: code5-1_media.css
+
+*/
+
+/* =========================
+   Mobile Styles: 0 to 500px
+   =========================
+*/
+
+@media only screen and (max-width: 500px) {
+   article img {
+      display: none;
+   }
+
+   ul.submenu {
+      justify-items: center;
+   }
+}
+
+/* ==============================
+   Tablet Styles: 501 and greater
+   ==============================
+*/
+@media only screen and (min-width: 501px) {
+   nav {
+      float: left;
+      width: 130px;
+      height: 400px;
+      margin: 30px 25px 0px 0px;
+   }
+}
+
+/* =================================
+   Desktop Styles: 710px and greater
+   =================================
+*/
+@media only screen and (min-width: 710px) {
+   nav {
+      float: none;
+      width: 100%;
+      height: auto;
+      margin: 0;
+   }
+
+   ul.mainmenu {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+   }
+
+   ul.mainmenu li {
+      flex: 0 1 120px;
+   }
+}
