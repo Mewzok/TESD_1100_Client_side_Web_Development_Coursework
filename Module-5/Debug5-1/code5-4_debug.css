@@ -16,14 +16,14 @@ header {
 }
 
 body {
-   display: flexbox;
-   flex-float: column nowrap;
+   display: flex;
+   flex-flow: column nowrap;
 }
 
-@media max-width: 500px {
+@media (max-width: 500px) {
    
    nav {
-      flex-order: 3;
+      order: 3;
    }
    
    article img {
@@ -31,9 +31,9 @@ body {
    }
 }
 
-@media min-width: 501px and max-width: 800px {
+@media (min-width: 501px) and (max-width: 800px) {
    body {
-      flex-float: row wrap;
+      flex-flow: row wrap;
    }
    
    header {
@@ -54,10 +54,10 @@ body {
    }
 }
 
-@media min-width: 801px {
+@media (min-width: 801px) {
    
    nav ul {
-      display: flexbox;
+      display: flex;
       justify-content: center;
    }
 
