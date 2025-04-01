@@ -5,8 +5,8 @@
    Tutorial 5
    Tutorial Case
    
-   Author:   
-   Date:     
+   Author:   Jonathan Kinney
+   Date:     03/31/2025
    
    Filename: tf_navicon.css
    
@@ -20,9 +20,9 @@
    Base Styles
    ===========
 */
-
-
-
+a#navicon {
+   display: none;
+}
 
 /* ===============================
    Mobile Devices: 0 to 480px 
@@ -30,6 +30,15 @@
 */
 
 @media only screen and (max-width: 480px) {
-
+   a#navicon {
+      display: block;
+   }
    
+   nav.horizontal ul {
+      display: none;
+   }
+
+   a#navicon:hover+ul, nav.horizontal ul:hover {
+      display: block;
+   }
 }
