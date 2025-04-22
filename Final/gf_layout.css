@@ -1,10 +1,19 @@
 @charset "utf-8";
 
 /*
-   Grant Facts Layout Styles
-   Filename: gf_layout.css
+	Grant Facts Layout Styles
+
+    Author: Jonathan Kinney
+    Date Created:   04/10/2025
+    Last Modified: 04/22/2025
+
+	Filename: gf_layout.css
 
 */
+
+* {
+	box-sizing: border-box;
+} 
 
 body {
 	margin: 0 auto;
@@ -14,44 +23,33 @@ body {
 }
 
 body > header {
-	margin: 0;
 	width: 100%;
 	overflow: hidden;
 }
 
+body > header > img {
+	display: block;
+	width: 100%;
+	height: 100%;
+	max-width: 100%;
+}
+
 body > nav {
-	width: 20%;
-	float: left;
-	margin: 0 0 0 1.5%;
+	width: 100%;
 }
 
 body > article#about_gf {
-	width: 51%;
-	float: left;
-	margin: 0 3% 0 3%;
+	width: 100%;
 }
 
-
 body > aside {
-	width: 20%;
-	float: left;
-	margin: 0 1.5% 0 0;
+	width: 100%;
 }
 
 body > article#about_gf img {
 	float: right;
-	width: 40%;
-	margin: 0px 0 10px 10px;
+	width: 50%;
+	margin-left: 10px;
 	transform: rotateY(180deg);
-}
-
-article.syllabus {
-    float: left;
-	width: 74.5%;
-	margin: 0 4% 0 0%;
-}
-
-
-body > footer {
-	clear: left;
+	box-shadow: 5px 5px 15px 10px rgba(0, 0, 0, 0.4);
 }

@@ -1,0 +1,39 @@
+@charset "utf-8";
+/*
+   Grant Facts Grid Styles
+   
+   Author: Jonathan Kinney
+   Date Created:   04/22/2025
+   Last Modified: 04/22/2025
+   
+   Filename: gf_grids.css
+
+*/
+
+
+/* Grid Styles for Page Body */
+body {
+   display: grid;
+   grid-template-columns: .8fr 2fr 1fr;
+   grid-template-areas: "header header header" 
+                        "nav article aside"
+                        "nav article aside"
+                        "nav article aside"; 
+   grid-column-gap: 0px;
+}
+
+body > header {
+    grid-area: header;
+}
+
+body > nav {
+    grid-area: nav;
+}
+
+body > aside {
+   grid-area: aside;
+}
+
+body > article#about_gf {
+   grid-area: article;
+}
