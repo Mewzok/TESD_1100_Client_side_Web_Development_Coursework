@@ -7,3 +7,7 @@ holding grant https://www.loc.gov/pictures/item/2017896375/ library of congress
 cartoon gun https://pixabay.com/vectors/cartoon-gun-pistol-shoot-2029753/ pixabay/OpenClipart-Vectors
 cartoon flag https://pixabay.com/vectors/flag-usa-america-united-states-2885321/ pixabay/13smok
 cartoon book https://pixabay.com/vectors/book-reading-textbook-cover-31627/ pixabay/Clker-Free-Vector-Images
+
+grant facts image 1 https://www.loc.gov/pictures/item/2021790680/ library of congress
+grant facts image 2 https://www.loc.gov/pictures/item/2016632351/ library of congress/Carol M. Highsmith
+grant facts image 3 https://www.loc.gov/pictures/resource/pga.00584/ library of congress/Charles H. Crosby

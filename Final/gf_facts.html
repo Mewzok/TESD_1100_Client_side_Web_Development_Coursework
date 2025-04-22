@@ -15,9 +15,10 @@
    <link href="gf_layout.css" rel="stylesheet" />
    <link href="gf_styles.css" rel="stylesheet" />
    <link href="gf_grids.css" rel="stylesheet" />
+   <script src="factgeneratorscript.js"></script>
 </head>
 
-<body>
+<body class="factpage">
    <header> 
       <a href="gf_home.html">
          <img src="resources/gf_logo.png" alt="Grant Facts" /> 
@@ -32,22 +33,27 @@
          <li><a href="gf_facts.html">Facts</a></li>
       </ul>
    </nav>
-   <article id="about_gf">
+   <article>
       <h1>Grant Facts</h1>
-      <p>Synopsis of Grant as president goes here.</p>
       <ul>
          <li><strong>Fact 1</strong>: Random president Grant fact 1.</li>
          <li><strong>Fact 2</strong>: Random president Grant fact 2.</li>
-         <li><strong>Fact 3</strong>: Random president Grant fact 3.</li>
+         <li><strong>Fact 3</strong>: Random president Grant fact 3.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod ante sed quam egestas bibendum. Vestibulum sagittis malesuada eros nec tempus. Nullam consectetur et urna sed mattis. Sed arcu neque, consectetur et nibh at, porttitor pellentesque ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Maecenas id arcu nec eros pulvinar cursus. Phasellus dignissim odio tellus, sed elementum ex eleifend a. Donec nec auctor libero, sed pretium nisi. Proin dui nunc, sollicitudin suscipit nibh sed, condimentum convallis ex. Mauris vitae erat condimentum metus faucibus vulputate vitae at enim.
+
+            Donec commodo libero vitae erat finibus, vel pellentesque tortor laoreet. Curabitur condimentum lorem turpis, eu venenatis sapien efficitur ut. Nunc blandit rutrum semper. Praesent bibendum nisl enim, eget varius justo congue vel. Ut volutpat elit sit amet lacus rutrum sollicitudin. Proin iaculis ligula et orci scelerisque, nec dictum lacus rhoncus. Aliquam dignissim tristique lobortis. Maecenas ligula odio, sodales in bibendum dapibus, dignissim sit amet lacus. In at gravida erat, non finibus diam. Praesent ornare faucibus blandit. Cras vel condimentum elit.
+            
+            Nullam posuere, magna sed condimentum pharetra, sapien lacus imperdiet augue, in rutrum lacus lacus nec eros. Nam quis malesuada erat, id ullamcorper nunc. Duis consectetur, ligula non tristique molestie, velit nisi sodales neque, eget semper magna libero vel neque. Ut placerat aliquet velit, ut maximus ipsum finibus non. Interdum et malesuada fames ac ante ipsum primis in faucibus. In eget posuere leo, sit amet laoreet enim. Praesent dictum cursus tortor, nec faucibus nisl viverra non. Ut urna libero, convallis fringilla maximus ut, fermentum sed odio.
+            
+            Vivamus convallis massa quis erat sollicitudin semper sed et ex. Cras cursus pretium nibh sed cursus. Cras finibus pharetra commodo. Suspendisse ullamcorper justo sit amet ligula commodo egestas. Morbi facilisis vel felis vel blandit. Duis ultricies purus at nunc fermentum scelerisque nec in ligula. Aenean interdum tortor ut purus convallis, sit amet sollicitudin dui sollicitudin. Integer at nibh neque. Mauris sagittis justo quis porta condimentum. Nulla facilisis velit eget eros lobortis, nec pharetra nisl porta. Proin finibus fringilla odio et pellentesque. Pellentesque faucibus mi ac eros auctor venenatis. Fusce molestie molestie consequat. Etiam id purus ante.
+            
+            Fusce pretium facilisis finibus. Quisque accumsan ipsum nec quam luctus, vel sollicitudin libero varius. Praesent purus nulla, pharetra vel elementum vel, faucibus non dolor. Quisque sed sapien eget mi luctus varius et quis sapien. Morbi aliquam velit nulla, quis ultrices lectus aliquam non. Fusce pharetra sagittis suscipit. Aenean porttitor, purus vel interdum fringilla, neque mi finibus nibh, nec vestibulum magna lectus porta mi.</li>
       </ul>
    </article>
    <aside>
-      <h1>Grant Quotes</h1>
-      <blockquote> Random Grant quote 1.</blockquote>
-      <blockquote> Random Grant quote 2.</blockquote>
-      <blockquote> Random Grant quote 3.</blockquote>
-      <blockquote> Random Grant quote 4.</blockquote>
-      <blockquote> Random Grant quote 5.</blockquote>
+      <h1>Grant Fact Generator</h1>
+      <img id="randomImage" src="resources/grantfactsimgs/gfimg1.png" alt="" />
+      <blockquote> Random fact generated.</blockquote>
+      <button id="generatefact">Generate</button>
    </aside>
 </body>
 </html>
