@@ -116,3 +116,29 @@ article, nav, aside {
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
    border-radius: 4px;
 }
+
+/* Home Page Styles */
+body.home nav a {
+   text-decoration: none;
+}
+
+body.home > nav img {
+	width: 100%;
+	max-width: 200px;
+	border-radius: 12px;
+	box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+	transition: transform 0.3s ease;
+}
+
+body.home > nav a:hover img {
+	transform: scale(1.05);
+}
+
+body.home > nav p {
+	font-weight: bold;
+	color: #2d2d2d;
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 5px 10px;
+	border-radius: 6px;
+	margin-top: 10px;
+}

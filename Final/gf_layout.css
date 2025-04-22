@@ -52,3 +52,22 @@ body > article#about_gf img {
 	transform: rotateY(180deg);
 	box-shadow: 5px 5px 15px 10px rgba(0, 0, 0, 0.4);
 }
+
+/* Home Page Layout */
+body.home nav {
+	display: flex;
+	justify-content: space-around;
+	gap: 20px;
+	padding: 1em 0;
+	text-align: center;
+}
+
+body.home h1 {
+	width: 75%;
+	align-self: center;
+	justify-self: center;
+}
+
+body.home nav a {
+	flex: 1;
+}
