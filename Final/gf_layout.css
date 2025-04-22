@@ -37,7 +37,7 @@ body > nav {
 	width: 100%;
 }
 
-body > article#about_gf {
+body > article {
 	width: 100%;
 }
 
@@ -45,7 +45,7 @@ body > aside {
 	width: 100%;
 }
 
-body > article#about_gf img {
+body > article img {
 	float: right;
 	width: 50%;
 	margin-left: 10px;
