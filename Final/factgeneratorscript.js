@@ -9,20 +9,32 @@
     picture of Grant and generate a random fact underneath it.
 */
 
-function randomImage() {
-    document.getElementById()
+window.onload = function() {
+    document.getElementById("generateFact").onclick=function() {
+        randomImage();
+    }
+
+    // pick and apply random image
+    function randomImage() {
+        const numOfImages = 15;
+
+        // get current image number
+        let currentSrc = document.getElementById("randomImage").src;
+        let currentImageNum = currentSrc.match(/gfimg(\d+)\.png/);
+        let currentNum = currentImageNum ? parseInt(currentImageNum[1]) : -1;
+
+        let randomNum;
+        do {
+            randomNum = Math.floor(Math.random() * numOfImages) + 1;
+        } while (randomNum === currentNum);
+
+        let imageString = "gfimg" + randomNum + ".png";
+
+        document.getElementById("randomImage").src="resources/grantfactsimgs/" + imageString;
+    }
+
+    // generate a random fact
+    function randomFact() {
+        
+    }
 }
-
-/*
-document.getElementById("generatefact").onlick=function() {
-    // set variable to current max number of images
-    var numOfImages = 3;
-
-    // create string with random number to pick random image
-    var imageString = "gfimg" + Math.floor(Math.random() * numOfImages + 1);
-
-    // create image
-    const image = document.getElementById(imageString);
-
-    
-} */

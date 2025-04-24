@@ -18,7 +18,7 @@
    <script src="factgeneratorscript.js"></script>
 </head>
 
-<body class="factpage">
+<body class="fact-page">
    <header> 
       <a href="gf_home.html">
          <img src="resources/gf_logo.png" alt="Grant Facts" /> 
@@ -49,11 +49,14 @@
             Fusce pretium facilisis finibus. Quisque accumsan ipsum nec quam luctus, vel sollicitudin libero varius. Praesent purus nulla, pharetra vel elementum vel, faucibus non dolor. Quisque sed sapien eget mi luctus varius et quis sapien. Morbi aliquam velit nulla, quis ultrices lectus aliquam non. Fusce pharetra sagittis suscipit. Aenean porttitor, purus vel interdum fringilla, neque mi finibus nibh, nec vestibulum magna lectus porta mi.</li>
       </ul>
    </article>
-   <aside>
+   <aside class="fact-generator">
       <h1>Grant Fact Generator</h1>
-      <img id="randomImage" src="resources/grantfactsimgs/gfimg1.png" alt="" />
-      <blockquote> Random fact generated.</blockquote>
-      <button id="generatefact">Generate</button>
+      <img id="randomImage" src="resources/holdinggrantfacts.png" alt="" />
+      <div id="factBox">
+         <h2 id="didYouKnow">Did you know?</h2>
+         <blockquote id="grantFact">Generate a random fake fact</blockquote>
+      </div>
+      <button id="generateFact">Generate</button>
    </aside>
 </body>
 </html>
