@@ -11,14 +11,14 @@
 
 /* HTML and Body Styles */
 html {
-   background: url("resources/capitolbackground.png") no-repeat;
+   background: url("resources/capitolbackground.png") no-repeat fixed;
    background-size: 105%;
-   background-position: 35% 0%;
+   background-position: 35% 20%;
 }
 
 body {
-   background: url("resources/parchmentbackground.png");
-   background-size: cover;
+   background: url("resources/parchmentbackground.png") repeat;
+   background-position: top center;
    background-color: rgb(50, 50, 50);
    font-family: "Trebuchet MS", "Verdana", sans-serif;
 }
@@ -190,4 +190,43 @@ body.home > nav p {
 
 #generateFact:hover {
    background-color: #a76c42;
+}
+
+#factList li {
+   list-style-type: none;
+}
+
+#factList {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   gap: 20px;
+   padding: 2em;
+   background-color: transparent;
+}
+
+.factCard {
+   background: linear-gradient(to bottom, #fdebc0, #ffdb70);
+   border-left: 4px solid #a1895d;
+   border-right: 4px solid #a1895d;
+   padding: 1.5em;
+   border-radius: 8px;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+   font-family: Georgia, serif;
+   transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.factCard:nth-child(even) {
+   background: linear-gradient(to bottom, #ffdb70, #fdebc0);
+}
+
+.factCard:hover {
+   transform: translateY(-5px);
+   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.factCard p {
+   font-size: 1.05em;
+   color: #3a2f0b;
+   line-height: 1.6;
+   font-family: Georgia, serif;
 }
