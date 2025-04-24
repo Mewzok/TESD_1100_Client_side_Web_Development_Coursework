@@ -168,8 +168,6 @@ body.home > nav p {
 }
 
 #grantFact {
-   display: none;
-   font-style: italic;
    font-size: 1.1em;
    color: #333;
    padding: 0.5em 1em;
