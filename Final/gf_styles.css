@@ -4,7 +4,7 @@
 
    Author: Jonathan Kinney
    Date Created:   04/10/2025
-   Date Modified: 04/22/2025
+   Date Modified: 04/24/2025
    
    Filename: gf_styles.css
 */
@@ -169,13 +169,15 @@ body.home > nav p {
 
 #grantFact {
    font-size: 1.1em;
-   color: #333;
+   color: #3a2f0b;
    padding: 0.5em 1em;
-   border-left: 4px solid #5a3e1b;
+   border-left: 4px solid #a1895d;
+   border-right: 4px solid #a1895d;
    margin: 10px auto;
    max-width: 90%;
-   background-color: rgba(255, 255, 255, 0.5);
+   background: linear-gradient(to bottom, #fdebc0, #ffdb70);
    border-radius: 6px;
+   font-family: Georgia, serif;
 }
 
 #generateFact {
@@ -192,31 +194,36 @@ body.home > nav p {
    background-color: #a76c42;
 }
 
-#factList li {
-   list-style-type: none;
-}
-
 #factList {
    display: grid;
-   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
    gap: 20px;
-   padding: 2em;
-   background-color: transparent;
+   margin: 0 auto;
 }
 
 .factCard {
    background: linear-gradient(to bottom, #fdebc0, #ffdb70);
    border-left: 4px solid #a1895d;
    border-right: 4px solid #a1895d;
-   padding: 1.5em;
+   padding: 1em;
    border-radius: 8px;
    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
    font-family: Georgia, serif;
    transition: transform 0.2s ease, box-shadow 0.2s ease;
+   margin-left: 40px;
 }
 
 .factCard:nth-child(even) {
    background: linear-gradient(to bottom, #ffdb70, #fdebc0);
+   margin-left: 0px;
+   margin-right: 40px;
+}
+
+.factCard:nth-child(3n) {
+   transform: rotate(-1deg);
+}
+.factCard:nth-child(4n) {
+   transform: rotate(1.5deg);
 }
 
 .factCard:hover {

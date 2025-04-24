@@ -1,7 +1,7 @@
 /*
     Author: Jonathan Kinney
     Date Created:   04/22/2025
-    Last Modified: 04/22/2025
+    Last Modified: 04/24/2025
 
 	Filename: factgeneratorscript.js
 
@@ -21,14 +21,14 @@ const objects = ["a camel", "a cannon", "three squirrels in a trench coat", "a h
     "a perfectly spherical egg", "a monkey with too many hands", "a bag that was way too full of marbles", 
     "a pair of shoes", "a lava lamp sent from the future", "a bear with violent tendencies", "a box of ancient scrolls",
     "a wall of hand-carved magical runes", "his own reflection (but older and with a cleft lip)", 
-    "a cat that could not meow and instead exclusively proclaimed 'Power Rangers the Movie!' with confidence",
+    "a cat that could not meow and instead exclusively proclaimed \"Power Rangers the Movie!\" with confidence",
     "a statue that occasionally looks slightly sadder than usual", "a model of Robert E. Lee with a longer neck",
     "an official Grant-shaped pinata", "a groundhog that made legal decisions", "a senator",
-    "the book 'Pride and Prejudice' by Jane Austen", "Napoleon's iconic horse from that one painting"];
+    "the book \"Pride and Prejudice\" by Jane Austen", "Napoleon's iconic horse from that one painting"];
 const reasons = ["because it owed him money", "due to a secret government experiment", "after losing a bet to Lincoln",
     "because it was Tuesday", "to win back his honor", "for fun", "because he misunderstood a fortune cookie", 
     "as a form of protest", "because Lincoln ordered him to", "because destiny demanded it", "because he was bored",
-    "because the stars aligned just right", "to prevent a tragedy", "because he felt 'muddy'", "due to travel regulations",
+    "because the stars aligned just right", "to prevent a tragedy", "because he felt \"muddy\"", "due to travel regulations",
     "because no one else could", "to impress Lincoln", "after reading a suspicious tablet", "because a Walmart witch told him to",
     "as part of his morning routine", "for national security", "in accordance with ancient prophecy",
     "due to a clerical error in 1849", "to win a bet with Rutherford B. Hayes, good ol' Rud, ol' Uncle Rud, lil' Rudy, the big one-nine", 
