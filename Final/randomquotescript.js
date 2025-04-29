@@ -20,8 +20,9 @@ const generalQuotes = ["I propose to fight it out on this line if it takes all s
     "Then, indeed, I gave up all idea of saving the Union except by complete conquest.", 
     "I'm thirsty.", "Don't eat things off the ground.", 
     "Everyone has his superstitions. One of mine has always been when I started to go anywhere, or to do anything, never to turn back or to stop until the thing intended was accomplished.", 
-    "I know only two tunes: one of them is 'Yankee Doodle', and the other isn't.", 
-    ];
+    "I know only two tunes: one of them is 'Yankee Doodle', and the other isn't.", "Hold fast to the Bible. To the influence of this Book we are indebted for all the progress made in true civilization and to this we must look as our guide in the future.", 
+    "If you see the President, tell him from me that whatever happens there will be no turning back.", "I don't underrate the value of military knowledge, but if men make war in slavish obedience to rules, they will fail.", 
+    "Nations, like individuals, are punished for their transgressions."];
 
 const presidentQuotes = ["PQ1", "PQ2", "PQ3", "PQ4", "PQ5", "PQ6", "PQ7"];
 
