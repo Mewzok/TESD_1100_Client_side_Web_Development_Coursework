@@ -4,7 +4,7 @@
 
    Author: Jonathan Kinney
    Date Created:   04/10/2025
-   Date Modified: 04/24/2025
+   Date Modified: 04/29/2025
    
    Filename: gf_styles.css
 */
@@ -45,6 +45,31 @@ article#about_gf h1 {
    background-color: hsl(220, 72%, 7%);
 }
 
+/* Article Styles */
+article img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+   margin: 0 auto 20px auto;
+   border-radius: 8px;
+   border: 3px solid #5c4127;
+   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+article p {
+   font-size: 1.05em;
+   line-height: 1.7;
+   margin-bottom: 1.5em;
+   color: #2c1f0d;
+}
+
+article h2 {
+   font-size: 1.6em;
+   color: #3a2f0b;
+   margin-top: 1.5em;
+   border-bottom: 2px solid #5c4127;
+   padding-bottom: 0.3em;
+}
 
 /* Aside and Blockquote Styles */
 aside {
@@ -76,6 +101,7 @@ aside blockquote::after {
 
 /* Navigation Styles */	
 nav {
+   padding: 10px;
    font-size: 1em;
    width: 100%;
    box-sizing: border-box;
