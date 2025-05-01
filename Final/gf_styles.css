@@ -4,7 +4,7 @@
 
    Author: Jonathan Kinney
    Date Created:   04/10/2025
-   Date Modified: 04/29/2025
+   Date Modified: 05/01/2025
    
    Filename: gf_styles.css
 */
@@ -31,7 +31,7 @@ h1 {
    text-align: center;
    padding: 10px;
    background-color: hsl(220, 50%, 20%);
-   color: white;
+   color: #e8a574;
    border: 2px solid #5c4127;
    border-radius: 8px;
    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
