@@ -45,6 +45,16 @@ article#about_gf h1 {
    background-color: hsl(220, 72%, 7%);
 }
 
+nav h1, aside h1 {
+   font-size: 1.4em;
+   border-bottom: 3px double #5c4127;
+   padding-bottom: 0.2em;
+   margin-bottom: 0.5em;
+   color: #e8a574;
+   letter-spacing: 0.05em;
+   text-align: center;
+}
+
 /* Article Styles */
 article img {
    max-width: 100%;
@@ -122,18 +132,6 @@ nav > ul > li > a:link, nav > ul > li > a:visited {
 nav > ul > li > a:hover, nav > ul > li > a:active {
    color: rgb(255, 64, 64);
    text-decoration: underline;
-}
-
-
-/* Aside and Nagivation Styles */
-nav h1, aside h1 {
-   font-size: 1.4em;
-   border-bottom: 3px double #5c4127;
-   padding-bottom: 0.2em;
-   margin-bottom: 0.5em;
-   color: #e8a574;
-   letter-spacing: 0.05em;
-   text-align: center;
 }
 
 article, nav, aside {
